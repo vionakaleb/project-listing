@@ -1,6 +1,4 @@
-# ivista-web
-
-> iVista Website
+# project-listing
 
 ## Build Setup
 
