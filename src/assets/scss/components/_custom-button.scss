@@ -1,0 +1,52 @@
+.d-button--one {
+	padding: 1rem 5.2rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    border-radius: 0.4rem;
+    border-radius: 8px;
+}
+
+.d-btn--yellow {
+	background-color: #FFD101;
+	color: #110F10;
+	border-radius: 8px;
+	border: 2px solid #FFD101;
+}
+.d-btn--yellow-border {
+	background-color: #181818;
+	color: #FFD001;
+	border-radius: 8px;
+	border: 2px solid #FED501;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+	.d-button--one {
+		padding: 0.25rem 2rem;
+    	font-size: 0.5rem;
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+	.d-button--one {
+		padding: 0.5rem 2rem;
+    	font-size: 0.5rem;
+	}
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+	.d-button--one {
+		padding: 0.5rem 2rem;
+    	font-size: 1.5rem;
+	}
+}
